@@ -135,7 +135,6 @@ fun TipTimeLayout() {
             onRoundUpChanged = { roundUp = it},
             modifier = Modifier.padding(bottom = 32.dp)
         )
-        Text(text = stringResource(id = R.string.how_was_the_service, tipPercent))
         Text(
             text = stringResource(R.string.tip_amount, tip),
             style = MaterialTheme.typography.displaySmall
